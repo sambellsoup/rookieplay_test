@@ -9,6 +9,10 @@ import requests
 # Create your views here.
 def index(request):
     times = int(os.environ.get('TIMES',3))
+    print("Testing DB")
+    print("Testing Virtual Environment")
+    print("Testing Pickle Folder")
+    print("Testing Views")
     return HttpResponse('Hello! ' * times)
 
 def db(request):
