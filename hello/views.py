@@ -13,6 +13,7 @@ def index(request):
     print("Testing Virtual Environment")
     print("Testing Pickle Folder")
     print("Testing Views")
+    print("Testing Document Upload Model")
     return HttpResponse('Hello! ' * times)
 
 def db(request):
